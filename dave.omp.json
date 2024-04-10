@@ -1,0 +1,104 @@
+{
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "root",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#100e23",
+          "background": "#ffe9aa"
+        },
+        {
+          "type": "session",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#ffffff",
+          "background": "#0037DA"
+        },
+        {
+          "type": "path",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#ffffff",
+          "background": "#0377C8",
+          "properties": {
+            "prefix": " \uE5FF ",
+            "style": "short"
+          }
+        },
+        {
+          "type": "kubectl",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#000000",
+          "background": "#ebcc34",
+          "properties": {
+            "prefix": " \uFD31 "
+          }
+        },
+        {
+          "type": "terraform",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#ffffff",
+          "background": "#0077c2"
+        },
+        {
+          "type": "git",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#000000",
+          "background": "#fffb38",
+          "properties": {
+            "display_stash_count": true,
+            "display_upstream_icon": true
+          }
+        },
+        {
+          "type": "python",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#100e23",
+          "background": "#906cff",
+          "properties": {
+            "prefix": " \uE235 "
+          }
+        },
+        {
+          "type": "exit",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#ffffff",
+          "background": "#ff8080",
+          "properties": {
+            "prefix": " \uE20F"
+          }
+        }
+      ]
+    },
+    {
+      "type": "newline"
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "exit",
+          "style": "plain",
+          "foreground": "#0037DA",
+          "properties": {
+            "prefix": "\u276F",
+            "always_enabled": true,
+            "error_color": "#FF5252",
+            "display_exit_code": false
+          }
+        }
+      ]
+    }
+  ],
+  "final_space": false
+}
